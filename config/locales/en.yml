@@ -21,6 +21,7 @@ en:
       password: "Password"
       sign_up: "Sign up now!"
       new_user: "New user?"
+      check_box: "Remember me on this computer"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
