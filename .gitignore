@@ -76,4 +76,4 @@ config/environments/*.local.yml
 /public/packs
 /db/development.sqlite3/
 .rubocop.yml
-/test/
+/test
