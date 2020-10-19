@@ -5,3 +5,10 @@ per_page: 10
 size_avata: 80
 size: 50
 password_expire_time: 2
+count_post: 5
+new_feed: 5
+limit_img: 500
+micropost_avata: 50
+accept_image: "image/jpeg,image/gif,image/png"
+max_content_micropost: 140
+less_than_size: 5

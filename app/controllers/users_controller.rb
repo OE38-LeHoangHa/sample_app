@@ -8,7 +8,10 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page]).per_page(Settings.per_page)
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page:
+      params[:page]).per_page(Settings.count_post)
+  end
 
   def new
     @user = User.new
@@ -19,7 +22,7 @@ class UsersController < ApplicationController
     if @user.save
       @user.send_activation_email
       flash[:info] = t "controller.users_controller.check_email"
-      redirect_to root_url
+      redirect_to root_path
     else
       render :new
     end
@@ -57,7 +60,7 @@ class UsersController < ApplicationController
 
     store_location
     flash[:danger] = t "controller.users_controller.check_login"
-    redirect_to login_url
+    redirect_to login_path
   end
 
   def correct_user
