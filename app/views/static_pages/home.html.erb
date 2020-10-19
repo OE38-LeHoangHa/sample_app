@@ -2,10 +2,10 @@
 <% provide :base, t(".base") %>
 <div class="center jumbotron">
   <h1><%= t ".welcome" %></h1>
-	<h2>
-		<%= t ".line1" %>
-		<a href="https://www.railstutorial.org/"><%= t (".line2") %></a>
-		<%= t ".line3" %>.
-	</h2>
-	<%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
+  <h2>
+    <%= t ".line1" %>
+    <%= link_to t(".line2"), "https://www.railstutorial.org/" %>
+    <%= t ".line3" %>.
+  </h2>
+  <%= link_to t(".sign_up"), "#", class: "btn btn-lg btn-primary" %>
 </div>
