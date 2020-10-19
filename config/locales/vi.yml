@@ -16,7 +16,7 @@ vi:
     application:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
-    _header:
+    header:
       sample_app: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ giúp"
@@ -62,6 +62,13 @@ vi:
       password_confirmation: "Xác nhận lại mật khẩu"
       signup: "Đăng ký"
       create_user: "Tạo tài khoản"
+      save: "Lưu thay đổi"
+      edit: "Chỉnh sửa thông tin"
+      edit_content: "Chỉnh sửa hồ sơ"
+      change: "Thay đổi"
+      all_users: "Tất cả người dùng"
+      confirm: "Xác nhận xoá ?"
+      delete: "Xóa"
     show:
       title: "Chào mừng"
   shared:
@@ -73,5 +80,12 @@ vi:
     users_controller:
       content_welcome: "Chào mừng đến với ứng dụng mẫu!"
       content_error: "Không tìm thấy dữ liệu"
+      profile_updated: "Thay đổi thành công"
+      user_delete: "Xóa thành công"
+      check_login: "Yêu cầu đăng nhập."
+      delete_fail: "Xóa thất bại"
+      user_not_found: "Không tìm thấy"
+      not_user: "Bạn không được phép thay đổi"
+      not_admin: "Không phải admin"
     sessions_controller:
       content_invalid: "Thư điện tử/Mật khẩu không hợp lệ"
