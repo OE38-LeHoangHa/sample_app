@@ -60,6 +60,10 @@ en:
       delete: "delete"
       account_activated: "Account activated!"
       invalid_link: "Invalid activation link"
+      follow: "Follow"
+      un_follow: "Unfollow"
+      following: "following"
+      followers: "followers"
     show:
       title: "Welcome"
       microposts: "Microposts"
