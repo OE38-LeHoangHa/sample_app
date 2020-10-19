@@ -63,7 +63,7 @@ build-iPhoneSimulator/
 /node_modules/
 .browserslistrc
 config/database.yml
-.framgia-ci-reports/
+.framgia-ci-reports/rubocop.xml
 .framgia-ci-result.temp.yml
 log/development.log
 
@@ -76,3 +76,4 @@ config/environments/*.local.yml
 /public/packs
 /db/development.sqlite3/
 .rubocop.yml
+/test/

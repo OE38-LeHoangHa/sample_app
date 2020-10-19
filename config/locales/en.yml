@@ -4,7 +4,7 @@ en:
       en: "English"
       vi: "Vietnamese"
     header:
-      sample_app: "sample app"
+      sample_app: "Sample app"
       home: "Home"
       help: "Help"
       user: "Users"
@@ -56,6 +56,8 @@ en:
       all_users: "All users"
       confirm: "Are you sure ?"
       delete: "delete"
+      account_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
     show:
       title: "Welcome"
   shared:
@@ -74,5 +76,14 @@ en:
       user_not_found: "User not Found"
       not_user: "You are not allowed to change"
       not_admin: "You are not admin"
+      user_not_found: "User not found"
+      check_email: "Please check your email to activate your account."
     sessions_controller:
       content_invalid: "Invalid email/password combination"
+      message: "Account not activated.Check your email for the activation link."
+    user_mailer:
+      title: "Sample App"
+      hi: "Hi"
+      active: "Active"
+      content: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
