@@ -1,4 +1,26 @@
 vi:
   layouts:
     application:
-      title: 'Trang chủ'
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+    _header:
+      sample_app: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      base: "Chào mừng bạn đến với ứng dụng mẫu"
+      line1: "Đây là trang chủ của"
+      line2: "Hướng dẫn sử dụng Ruby on Rails"
+      line3: "ứng dụng mẫu"
+      sign_up: "Đăng ký!"
+    help:
+      title: "Trợ giúp"
+      base: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      help: "Trợ giúp"
+      content_1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại "
+      content_2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách "
+      href_1: "Trang trợ giúp Hướng dẫn về Rails"
+      href_2: "Hướng dẫn sử dụng Ruby on Rails"
