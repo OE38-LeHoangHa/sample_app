@@ -3,7 +3,7 @@ en:
     application:
       en: "English"
       vi: "Vietnamese"
-    _header:
+    header:
       sample_app: "sample app"
       home: "Home"
       help: "Help"
@@ -49,6 +49,13 @@ en:
       password_confirmation: "Confirmation"
       signup: "Sign up"
       create_user: "Create my account"
+      save: "Save changes"
+      edit: "Edit infomation user"
+      edit_content: "Update your profile"
+      change: "Change"
+      all_users: "All users"
+      confirm: "Are you sure ?"
+      delete: "delete"
     show:
       title: "Welcome"
   shared:
@@ -60,5 +67,12 @@ en:
     users_controller:
       content_welcome: "Welcome to the Sample App!"
       content_error: "Not found data"
+      profile_updated: "Profile updated success"
+      user_delete: "Delete sussess"
+      check_login: "Please log in."
+      delete_fail: "Delete Fail"
+      user_not_found: "User not Found"
+      not_user: "You are not allowed to change"
+      not_admin: "You are not admin"
     sessions_controller:
       content_invalid: "Invalid email/password combination"

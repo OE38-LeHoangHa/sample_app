@@ -1,0 +1,11 @@
+<% provide :title, t("users.new.all_users") %>
+<% provide :base, t("sessions.new.base") %>
+<h1><%= t "users.new.all_users" %></h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+    <%= render @users %>
+</ul>
+
+<%= will_paginate %>
