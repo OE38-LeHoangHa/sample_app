@@ -1,4 +1,26 @@
 en:
   layouts:
     application:
-      title: 'Home'
+      en: "English"
+      vi: "Vietnamese"
+    _header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+  static_pages:
+    home:
+      title: "Home"
+      base: "Welcome to the Sample App"
+      line1: "This is the home page for the"
+      line2: "Ruby on Rails Tutorial"
+      line3: "sample application"
+      sign_up: "Sign up now!"
+    help:
+      title: "Help"
+      base: "Ruby on Rails Tutorial Sample App"
+      help: "Help"
+      content_1: "Get help on the Ruby on Rails Tutorial at the "
+      content_2: "To get help on this sample app, see the book "
+      href_1: "Rails  Tutorial help page"
+      href_2: "Ruby  on Rails Tutorial"

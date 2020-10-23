@@ -16,6 +16,12 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
 ## Specific to RubyMotion:
 .dat*
 .repl_history
@@ -58,3 +64,4 @@ build-iPhoneSimulator/
 .browserslistrc
 config/database.yml
 .framgia-ci.yml
+log/development.log
