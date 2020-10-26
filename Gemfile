@@ -47,4 +47,6 @@ gem "rails-i18n"
 
 source "https://rubygems.org"
 
+gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.4.1"
+gem "config"
