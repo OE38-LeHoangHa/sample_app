@@ -7,9 +7,23 @@ en:
       sample_app: "sample app"
       home: "Home"
       help: "Help"
-      login: "Login"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
+  sessions:
+    new:
+      title: "Log in"
+      base: "Ruby on Rails Tutorial Sample App"
+      email: "Email"
+      password: "Password"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
   static_pages:
     home:
+      welcome: "Welcome to the Sample App"
       title: "Home"
       base: "Welcome to the Sample App"
       line1: "This is the home page for the"
@@ -24,3 +38,26 @@ en:
       content_2: "To get help on this sample app, see the book "
       href_1: "Rails  Tutorial help page"
       href_2: "Ruby  on Rails Tutorial"
+  users:
+    new:
+      title: "Sign up"
+      base: "Sign up new user"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      signup: "Sign up"
+      create_user: "Create my account"
+    show:
+      title: "Welcome"
+  shared:
+    _error_messages:
+      error:
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors"
+  controller:
+    users_controller:
+      content_welcome: "Welcome to the Sample App!"
+      content_error: "Not found data"
+    sessions_controller:
+      content_invalid: "Invalid email/password combination"

@@ -3,12 +3,15 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "bcrypt", "3.1.13"
+gem "bootstrap-sass", "3.4.1"
+gem "config"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 
 gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 4.1"
-
+gem "rails-i18n"
 gem "sass-rails", ">= 6"
 
 gem "webpacker", "~> 4.0"
@@ -43,10 +46,4 @@ group :test do
 end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "rails-i18n"
-
 source "https://rubygems.org"
-
-gem "bcrypt", "3.1.13"
-gem "bootstrap-sass", "3.4.1"
-gem "config"

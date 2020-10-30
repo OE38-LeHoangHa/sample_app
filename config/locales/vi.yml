@@ -1,4 +1,17 @@
 vi:
+  user:
+    title: "Đăng nhập"
+    base: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    title: "Đăng ký"
+    base: "Đăng ký người dùng mới"
+    name: "Tên"
+    email: "Thư điện tử"
+    password: "Mật khẩu"
+    password_confirmation: "Xác nhận lại mật khẩu"
+    signup: "Đăng ký"
+    create_user: "Tạo tài khoản"
+    log_out: "Đăng xuất"
+    log_in: "Đăng nhập"
   layouts:
     application:
       en: "Tiếng Anh"
@@ -7,9 +20,23 @@ vi:
       sample_app: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ giúp"
-      login: "Đăng nhập"
+      user: "Người dùng"
+      account: "Tài Khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
+      log_in: "Đăng nhập"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      base: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      sign_up: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
   static_pages:
     home:
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
       title: "Trang chủ"
       base: "Chào mừng bạn đến với ứng dụng mẫu"
       line1: "Đây là trang chủ của"
@@ -24,3 +51,26 @@ vi:
       content_2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách "
       href_1: "Trang trợ giúp Hướng dẫn về Rails"
       href_2: "Hướng dẫn sử dụng Ruby on Rails"
+  users:
+    new:
+      title: "Đăng ký"
+      base: "Đăng ký người dùng mới"
+      name: "Tên"
+      email: "Thư điện tử"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận lại mật khẩu"
+      signup: "Đăng ký"
+      create_user: "Tạo tài khoản"
+    show:
+      title: "Chào mừng"
+  shared:
+    _error_messages:
+      error:
+        one: "Biểu mẫu chứa %{count} lỗi"
+        other: "Biểu mẫu chứa %{count} lỗi"
+  controller:
+    users_controller:
+      content_welcome: "Chào mừng đến với ứng dụng mẫu!"
+      content_error: "Không tìm thấy dữ liệu"
+    sessions_controller:
+      content_invalid: "Thư điện tử/Mật khẩu không hợp lệ"
