@@ -34,6 +34,7 @@ vi:
       password: "Mật khẩu"
       sign_up: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
+      check_box: "Lưu mật khẩu trên máy"
   static_pages:
     home:
       welcome: "Chào mừng bạn đến với ứng dụng mẫu"
