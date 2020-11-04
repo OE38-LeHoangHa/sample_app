@@ -3,6 +3,7 @@
 
 $color_white: #fff;
 $color_border: #bbb;
+$gray-light: #777;
 
 @mixin box_sizing {
   -moz-box-sizing:
@@ -124,4 +125,15 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
