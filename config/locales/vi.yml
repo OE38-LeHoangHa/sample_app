@@ -69,6 +69,8 @@ vi:
       all_users: "Tất cả người dùng"
       confirm: "Xác nhận xoá ?"
       delete: "Xóa"
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Liên kết kích hoạt không hợp lệ"
     show:
       title: "Chào mừng"
   shared:
@@ -87,5 +89,13 @@ vi:
       user_not_found: "Không tìm thấy"
       not_user: "Bạn không được phép thay đổi"
       not_admin: "Không phải admin"
+      check_email: "Kiểm tra thư điện tử để kích hoạt tài khoản"
     sessions_controller:
       content_invalid: "Thư điện tử/Mật khẩu không hợp lệ"
+      message: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để biết liên kết kích hoạt."
+    user_mailer:
+      title: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      active: "Kích hoạt"
+      content: "Chào mừng đến với ứng dụng mẫu!
+        Bấm vào nút kích hoạt bên dưới để kích hoạt tài khoản của bạn:"
