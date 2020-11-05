@@ -35,6 +35,7 @@ vi:
       sign_up: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       check_box: "Lưu mật khẩu trên máy"
+      forgot_password: "Quên mật khẩu"
   static_pages:
     home:
       welcome: "Chào mừng bạn đến với ứng dụng mẫu"
@@ -99,3 +100,19 @@ vi:
       active: "Kích hoạt"
       content: "Chào mừng đến với ứng dụng mẫu!
         Bấm vào nút kích hoạt bên dưới để kích hoạt tài khoản của bạn:"
+  password_reset:
+    email_sent: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    email_not_found: "Không tìm thấy địa chỉ email"
+    not_empty: "không thể để trống"
+    sussess_reset: "Mật khẩu đã được đặt lại."
+    expired: "Đặt lại mật khẩu đã hết hạn."
+    title: "Đặt lại mật khẩu"
+    content_link: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    content_expire: "Liên kết này sẽ hết hạn sau hai giờ."
+    content: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+      vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    forgot_password: "Quên mật khẩu"
+    submit: "Xác nhận"
+    new_password: "Nhập mật khẩu mới"
+    confirm_new_password: "Xác nhận mật khẩu mới"
+    update_password: "Cập nhật mật khẩu mới"
