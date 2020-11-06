@@ -32,6 +32,7 @@ en:
       line2: "Ruby on Rails Tutorial"
       line3: "sample application"
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       base: "Ruby on Rails Tutorial Sample App"
@@ -61,11 +62,19 @@ en:
       invalid_link: "Invalid activation link"
     show:
       title: "Welcome"
+      microposts: "Microposts"
   shared:
     _error_messages:
       error:
         one: "The form contains %{count} error"
         other: "The form contains %{count} errors"
+    micropost_form:
+      new_post: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
   controller:
     users_controller:
       content_welcome: "Welcome to the Sample App!"
@@ -104,3 +113,15 @@ en:
     new_password: "New password"
     confirm_new_password: "Confirm new password"
     update_password: "Update password"
+  microposts:
+    micropost:
+      posted: "Posted"
+      delete: "delete"
+      confirm: "You sure?"
+      ago: "ago."
+    validate_img: "must be a valid image format"
+    less_than: "should be less than 5MB"
+    create_micropost: "Micropost created!"
+    delete_micropost: "Micropost deleted"
+    delete_micropost_fail: "Delete micropost fail"
+    micropost_not_found: "Micropost not found"

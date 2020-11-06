@@ -45,6 +45,8 @@ vi:
       line2: "Hướng dẫn sử dụng Ruby on Rails"
       line3: "ứng dụng mẫu"
       sign_up: "Đăng ký!"
+      micropost_feed: "Bảng tin"
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
     help:
       title: "Trợ giúp"
       base: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
@@ -74,11 +76,18 @@ vi:
       invalid_link: "Liên kết kích hoạt không hợp lệ"
     show:
       title: "Chào mừng"
+      microposts: "Bài đăng"
   shared:
     _error_messages:
       error:
         one: "Biểu mẫu chứa %{count} lỗi"
         other: "Biểu mẫu chứa %{count} lỗi"
+    micropost_form:
+      new_post: "Viết bài đăng mới..."
+      post: "Đăng"
+    user_info:
+      view_profile: "Xem hồ sơ"
+      micropost: "bài đăng"
   controller:
     users_controller:
       content_welcome: "Chào mừng đến với ứng dụng mẫu!"
@@ -116,3 +125,15 @@ vi:
     new_password: "Nhập mật khẩu mới"
     confirm_new_password: "Xác nhận mật khẩu mới"
     update_password: "Cập nhật mật khẩu mới"
+  microposts:
+    micropost:
+      posted: "Đã đăng"
+      delete: "Xóa bỏ"
+      confirm: "Bạn chắc chắn?"
+      ago: "trước."
+    validate_img: "phải là một định dạng hình ảnh hợp lệ"
+    less_than: "phải nhỏ hơn 5MB"
+    create_micropost: "Tạo mới bài đăng!"
+    delete_micropost: "Xóa bài đăng"
+    delete_micropost_fail: "Xóa bài đăng thất bại"
+    micropost_not_found: "Không tìm thấy bài đăng"
