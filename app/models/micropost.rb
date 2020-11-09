@@ -2,6 +2,7 @@ class Micropost < ApplicationRecord
   belongs_to :user
   has_one_attached :image
   scope :recent_posts, ->{order created_at: :desc}
+  scope :new_feed, ->(id){where("user_id IN (?)", id)}
   validates :user_id, presence: true
   validates :content, presence: true,
    length: {maximum: Settings.max_content_micropost}

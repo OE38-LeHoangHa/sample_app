@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       if user.activated?
         login user
       else
-        message = t("controller.sessions_controller.message")
+        message = t "controller.sessions_controller.message"
         flash[:warning] = message
         redirect_to root_url
       end

@@ -74,6 +74,10 @@ vi:
       delete: "Xóa"
       account_activated: "Tài khoản đã được kích hoạt"
       invalid_link: "Liên kết kích hoạt không hợp lệ"
+      follow: "Theo dõi"
+      un_follow: "Bỏ theo dõi"
+      following: "đang theo dõi"
+      followers: "người theo dõi"
     show:
       title: "Chào mừng"
       microposts: "Bài đăng"
